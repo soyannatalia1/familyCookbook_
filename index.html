@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Cookbook</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to an external stylesheet for styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #f4a261;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        nav {
+            background-color: #2a9d8f;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            padding: 2rem;
+        }
+
+        .featured-recipes {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .recipe-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .recipe-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .footer a {
+            color: #f4a261;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Family Cookbook</h1>
+        <p>Sharing Delicious Recipes, Creating Lasting Memories</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2>Featured Recipes</h2>
+        
+        <!-- Featured Recipes Section -->
+        <div class="featured-recipes">
+            <!-- Recipe Card 1 -->
+            <div class="recipe-card">
+                <img src="recipe1.jpg" alt="Recipe 1">
+                <h3>Spaghetti Bolognese</h3>
+                <p>A family favorite that's always a hit.</p>
+                <a href="#">View Recipe</a>
+            </div>
+
+            <!-- Recipe Card 2 -->
+            <div class="recipe-card">
+                <img src="recipe2.jpg" alt="Recipe 2">
+                <h3>Chocolate Chip Cookies</h3>
+                <p>The best cookies to enjoy with a glass of milk.</p>
+                <a href="#">View Recipe</a>
+            </div>
+
+            <!-- Recipe Card 3 -->
+            <div class="recipe-card">
+                <img src="recipe3.jpg" alt="Recipe 3">
+                <h3>Chicken Parmesan</h3>
+                <p>Golden, crispy, and cheesy goodness.</p>
+                <a href="#">View Recipe</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Family Cookbook. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:familycookbook@example.com">familycookbook@example.com</a></p>
+    </footer>
+
+</body>
+</html>
